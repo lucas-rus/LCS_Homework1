@@ -17,11 +17,11 @@ A Python tool for parsing and validating logical formulas using propositional lo
 
 ## Installation
 
-1. Clone this repository or download the `logic_parser.py` file:
+1. Clone this repository or download the `wff-solver.py` file:
 ```bash
 git clone https://your-repository-url.git
 # or
-curl -O your-raw-file-url/logic_parser.py
+curl -O your-raw-file-url/wff-solver.py
 ```
 
 2. Place the file in your desired working directory.
@@ -44,7 +44,7 @@ The parser supports the following logical operators:
 2. Import and create an instance of the LogicParser:
 
 ```python
-from logic_parser import LogicParser
+from wff_solver import LogicParser
 
 parser = LogicParser()
 ```
@@ -169,4 +169,3 @@ Therefore, this is a well-formed formula.
 ## Contributing
 
 Feel free to submit issues and enhancement requests!
-
